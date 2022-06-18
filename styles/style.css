@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    
+}
+.title{
+    gap: 20px;
+    color: white;
+}
+.header__title{
+    gap: 20px;
+    color: white;
+}
+.logo{
+    width: 8%;
+    height: 20px;
+}
+.buy{
+    padding: 2px 8px;
+    background: #000;
+    border-radius: 8px;
+    color: white;
+}
+.header-top{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+.section-top{
+   background: url(../images/section-img.png) no-repeat center/cover;
+   height: 94.7vh;
+}
+.titles{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.salon{
+    margin-top: 60px;
+}
+.bars{
+    color: #000;
+}
+.icon{
+    display: none;
+}
+.robiya{
+    width: 650px;
+}
+.main-top{
+    background: url(../images/IMAGE.png) no-repeat center/cover;
+    height: 100vh;
+}
+.robi01{
+    height: 638px;
+}
+.main__title{
+    color: white;
+    text-align: center;
+}
+.main__text{
+    color: white;
+    text-align: center;
+}
+.main__title:hover, .main__text:hover{
+    color: red;
+}
+.sector-top{
+    border-top: 2px solid gray;
+    background: url(../images/Rectangle.png) no-repeat center/cover;
+    height: 1000px;
+}
+.jony{
+color: white;
+text-align: center;
+}
+.list1, .list2{
+    border: 5px double cadetblue;
+}
+.footer-icon{
+   color: white;
+}
+.footer{
+    padding:70px 0px ;
+    background: #000;
+}
+.store{
+    font-size: 30px;
+    color: white;
+}
+.next{
+    padding: 50px 0px;
+    background: #000;
+    border-bottom: 3px solid gray;
+}
+.next__title{
+    color: white;
+}

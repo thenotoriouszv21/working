@@ -1,0 +1,157 @@
+@media (max-width: 1140px) {
+    .salon {
+        margin-top: 60px;
+        max-width: 510px;
+        width: 100%;
+    }
+    .section-top{
+        height: 94.1vh;
+    }
+
+}
+@media (max-width: 1024px) {
+    .title {
+        gap: 10px;
+    }
+}
+.sector__nav{
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .title, .header__title{
+        display: none !important;
+    }
+    .logo{
+        margin-left: 10%;
+        width: 10%;
+    }
+    .icon{
+        display: flex;
+        text-decoration: none;
+    }
+    .section-top{
+        height: 96.9vh;
+    }
+   .main__nav{
+       flex-direction: column;
+   }
+   .robiya{
+       width: 400px;
+       height: 390px;
+   }
+   .sector__nav{
+    flex-direction: column;
+     align-items: center;
+   }
+   .list1, .list2{
+    max-width: 450px;
+    max-height: 450px;
+   }
+   .jony{
+    padding-bottom: 20px;
+   }
+   .footer__icon{
+    flex-direction: column;
+    gap: 30px;
+   }
+   .next__title{
+    text-align: center;
+   }
+}
+@media (max-width: 425px) {
+       .logo{
+           width: 20%;
+           height: 20px;
+       }
+       .section__nav{
+           
+       }
+       .row{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .salon{
+        margin-top: 60px;
+        max-width: 510px;
+        width: 360px;
+        
+       }
+       .images{
+           display: flex;
+           justify-content: center;
+       }
+       .section__title, .section__text{
+           width: 300px;
+       }
+       .titles {
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .salon{
+        margin-top: 100px;
+    }
+    .header__nav{
+        padding: 5px 0px;
+    }
+    .section-top {
+        height: 95.8vh;
+        border-bottom: 2px solid gray;
+    }
+    .video{
+        max-width: 400px;
+       }
+}
+@media (max-width: 375px) {
+
+    .robiya{
+        width: 385px;
+        height: 385px;
+    }
+}
+.video{
+    max-width: 350px;
+}
+.list1, .list2{
+    max-width: 400px;
+    max-height: 400px;
+}
+.jony{
+    padding-bottom: 50px;
+}
+.robiya {
+    width: 330px;
+    height: 330px;
+}
+.sector__nav{
+    padding-top: 40px;
+}
+@media (max-width: 320px) {
+    .salon{
+        margin-top: 35px;
+        width: 300px;
+    }
+    .robiya{
+        width: 300px;
+        height: 300px;
+    }
+    .titles{
+        margin-top: 100px;
+    }
+    .robi01{
+        margin-bottom: 15px;
+    }
+    .list1, .list2{
+       max-width: 350px;
+       max-height: 350px;
+    }
+    .video{
+        max-width: 300px;
+    }
+}
